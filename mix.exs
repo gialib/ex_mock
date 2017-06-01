@@ -1,7 +1,7 @@
 defmodule Mock.Mixfile do
   use Mix.Project
 
-  @version "0.1.0"
+  @version "0.1.1"
 
   def project do
     [ app: :ex_mock,
@@ -44,7 +44,7 @@ defmodule Mock.Mixfile do
       maintainers: ["Happy"],
       licenses: ["MIT"],
       links: %{
-        "GitHub" => "https://github.com/gialib/exmock"
+        "GitHub" => "https://github.com/gialib/ex_mock"
       }
     ]
   end
